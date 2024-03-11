@@ -1027,6 +1027,7 @@ body {
     letter-spacing: 2px;
     margin: 0px 2px;
 }
+
 /* Circle Logo */
 .backgroud-banner .banner .logo-vr span i {
     font-size: 9px;
@@ -1059,6 +1060,249 @@ body {
 .backgroud-banner .banner .vr img {
     width: 200px;
 }
+
+/* Section Phone and Tablet */
+.phone-tablet-section {
+    width: 100%;
+    margin-top: 30px;
+}
+
+/* Main Phone and Tablet */
+.phone-tablet-section .phone-content-tablet {
+    width: 72%;
+    margin: auto;
+    display: flex;
+}
+
+/* Content Image */
+.phone-tablet-section .phone-content-tablet .img-content {
+    width: 20%;
+    background-image: url("../img/19.jpg");
+    background-position: center;
+    background-size: cover;
+    background-color: #eae9e9;
+    background-blend-mode: multiply;
+}
+
+/* Main Img Title */
+.phone-tablet-section .phone-content-tablet .img-content .img-title {
+    margin-left: 30px;
+}
+
+/* P Text Img Title */
+.phone-tablet-section .phone-content-tablet .img-content .img-title p {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+/* Span Style Text Img Title */
+.phone-tablet-section .phone-content-tablet .img-content .img-title span {
+    font-weight: bold;
+    color: #9d0208;
+    text-shadow: 1px 1px 3px #a64b4b;
+    margin-top: 25px;
+}
+
+/* Text Highlight */
+.phone-tablet-section .phone-content-tablet .img-content .img-title .text {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* Price Highlight */
+.phone-tablet-section .phone-content-tablet .img-content .img-title .price {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.phone-tablet-section .phone-content-tablet .img-content .img-title .price sup {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Header Title */
+.phone-tablet-section .phone-content-tablet .img-content .title {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: #c9184a;
+}
+
+/* Icon */
+.phone-tablet-section .phone-content-tablet .img-content .title .icon {
+    width: 20%;
+    text-align: center;
+}
+
+/* Icon i */
+.phone-tablet-section .phone-content-tablet .img-content .title .icon i {
+    padding: 20px 15px;
+    height: 50px;
+    font-size: 13px;
+    background-color: #590d22;
+}
+
+/* Title Text */
+.phone-tablet-section .phone-content-tablet .img-content .title .header-title {
+    width: 80%;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* P tiltle Text */
+.phone-tablet-section .phone-content-tablet .img-content .title .header-title p {
+    margin-left: 5px;
+}
+
+/* Btn Shop Now */
+.phone-tablet-section .phone-content-tablet .img-content .img-title .shop-now {
+    margin-top: 10px;
+}
+
+.phone-tablet-section .phone-content-tablet .img-content .img-title .shop-now a {
+    color: #333333;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    transition: all .5s;
+}
+
+
+.phone-tablet-section .phone-content-tablet .img-content .img-title .shop-now a:hover {
+    color: rgba(255, 255, 255, 1);
+    opacity: 1;
+    background-color: #949494;
+}
+
+
+
+
+/* Content Products */
+.phone-tablet-section .phone-content-tablet .product-content {
+    width: 80%;
+}
+
+/* Menu Brand */
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid #c9184a;
+}
+
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand .list-menu-brand {
+    width: 80%;
+}
+
+/* Header Of List */
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand .list-menu-brand ul {
+    list-style-type: none;
+    display: flex;
+}
+
+/* Heigh Of Width */
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand .list-menu-brand ul li {
+    /* padding: 15px 15px; */
+    padding-left: 0px;
+}
+
+/* A Tag of List */
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand .list-menu-brand ul li a {
+    text-decoration: none;
+    padding: 0px 30px 0px 0px;
+    color: #333;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* Js Menu Phones and Tablets */
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand .list-menu-brand ul li.moblie-accessories.active a{
+    color: #fca311;
+}
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand .list-menu-brand ul li.smart-phone.active a{
+    color: #fca311;
+}
+
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand .list-menu-brand ul li.tablet.active a{
+    color: #fca311;
+}
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand .list-menu-brand ul li.see-more.active a{
+    color: #fca311;
+}
+
+
+/* Main of Chevron */
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand .chevron {
+    display: flex;
+}
+
+/* Chevron Left Right */
+.phone-tablet-section .phone-content-tablet .product-content.menu-brand .chevron {
+    display: flex;
+    align-items: center;
+}
+
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand .chevron span {
+    display: flex;
+    background-color: #333;
+    padding: 8px 10px;
+    border-radius: 3px;
+    margin: 0px 5px;
+    text-align: center;
+    align-items: center;
+    font-size: 10px;
+    color: #ffffff;
+}
+
+
+/* Efect Top Menus  */
+
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand .list-menu-brand ul li.electronic-brands.active a {
+    color: #fca311;
+    border-top: 3px solid #fca311;
+    padding-top: 21px;
+}
+
+
+.phone-tablet-section .phone-content-tablet .product-content.menu-brand .list-menu-brand ul li.top-brands.active a {
+    color: #fca311;
+    border-top: 3px solid #fca311;
+    padding-top: 21px;
+}
+
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand .list-menu-brand ul li.fashion-brands.active a {
+    color: #fca311;
+    border-top: 3px solid #fca311;
+    padding-top: 21px;
+}
+
+/* Efect Chevron Left Right */
+.phone-tablet-section .phone-content-tablet .product-content span.chevron-right1.active {
+    background-color: #fca311;
+}
+
+.phone-tablet-section .phone-content-tablet .product-content span.chevron-left1.active{
+    background-color: #fca311;
+
+}
+
+.brand-section .content-brand-section .menu-brand .chevron span i {
+    font-size: 10px;
+    color: #fff;
+}
+
+
 
 /* Responsive */
 @media (min-width: 1200px) {
@@ -2223,6 +2467,7 @@ body {
     .title-section .content-title-section {
         width: 93%;
     }
+
     /* Vr Title */
     .backgroud-banner .banner .logo-vr .vr-title {
         font-size: 10px;
@@ -2232,6 +2477,7 @@ body {
     .backgroud-banner .banner .logo-vr span i {
         font-size: 8px;
     }
+
     /* Logo Vr Logo*/
     .backgroud-banner .banner .logo-vr .logo {
         font-size: 25px;
@@ -2798,6 +3044,7 @@ body {
     .backgroud-banner .banner {
         width: 95%;
     }
+
     .product-section .cotent-product-section {
         width: 95%;
     }
@@ -2836,6 +3083,7 @@ body {
     .navbar-section .content-navbar {
         width: 95%;
     }
+
     /* Vr Title */
     .backgroud-banner .banner .logo-vr .vr-title {
         font-size: 10px;
@@ -2845,6 +3093,7 @@ body {
     .backgroud-banner .banner .logo-vr span i {
         font-size: 8px;
     }
+
     /* Logo Vr Logo*/
     .backgroud-banner .banner .logo-vr .logo {
         font-size: 25px;

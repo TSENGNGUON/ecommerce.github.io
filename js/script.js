@@ -20,6 +20,17 @@ var x = setInterval(() => {
 
 }, 1000);
 
+// See Mores
+const btnSeeMore = document.querySelector(".see-more");
+
+// Tablet 
+const btnTablets = document.querySelector(".tablet");
+
+// Menu Mobile Accessories
+const btnMobileAccessories = document.querySelector(".moblie-accessories");
+
+// Menu Smart Phone
+const btnSmrtPhone = document.querySelector(".smart-phone");
 // Btn Categories
 const btnCategories = document.querySelector(".menu-categories");
 
@@ -45,9 +56,58 @@ const chevronLeft = document.querySelector(".chevron-left");
 // Chevron Right
 const chevronRight = document.querySelector(".chevron-right");
 
+// Chevron Left1
+const chevronLeft1 = document.querySelector(".chevron-left1");
+
+// Chevron Right1
+const chevronRight1 = document.querySelector(".chevron-right1");
+
 var bool = true;
 
 
+// Click SmartPhone 
+btnSmrtPhone.addEventListener("click",function(){
+    btnSmrtPhone.classList.add("active");
+    btnMobileAccessories.classList.remove("active");
+    btnTablets.classList.remove("active");
+    btnSeeMore.classList.remove("active");
+})
+// Click Mobile Accessories
+btnMobileAccessories.addEventListener("click",function(){
+    btnSmrtPhone.classList.remove("active");
+    btnMobileAccessories.classList.add("active");
+    btnTablets.classList.remove("active");
+    btnSeeMore.classList.remove("active");
+})
+
+// Click Tablets
+btnTablets.addEventListener("click",function(){
+    btnSmrtPhone.classList.remove("active");
+    btnMobileAccessories.classList.remove("active");
+    btnTablets.classList.add("active");
+    btnSeeMore.classList.remove("active");
+})
+
+// Click See More
+btnSeeMore.addEventListener("click",function(){
+    btnSmrtPhone.classList.remove("active");
+    btnMobileAccessories.classList.remove("active");
+    btnTablets.classList.remove("active");
+    btnSeeMore.classList.add("active");
+})
+
+
+// Chevron Right1
+chevronRight1.addEventListener("click",function(){
+    chevronRight1.classList.add("active");
+    chevronLeft1.classList.remove("active");
+})
+
+// Chevron Left1
+chevronLeft1.addEventListener("click",function(){
+    chevronLeft1.classList.add("active");
+    chevronRight1.classList.remove("active");
+})
 // Chevron Right
 chevronRight.addEventListener("click",function(){
     chevronRight.classList.add("active");
