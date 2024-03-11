@@ -974,6 +974,91 @@ body {
     color: #0077b6;
 }
 
+/* Backgroud Banner */
+.backgroud-banner {
+    width: 100%;
+    margin-top: 30px;
+}
+
+/* Banner */
+.backgroud-banner .banner {
+    width: 72%;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    background-image: url("../img/15.jpg");
+    background-size: cover;
+    background-color: #898989;
+    background-blend-mode: multiply;
+    background-position: center;
+    transition: all .5s;
+}
+
+/* Logo Vr */
+.backgroud-banner .banner .logo-vr {
+    color: #ffffff;
+    padding-left: 30px;
+    font-size: 10px;
+    width: 33%;
+}
+
+/* Logo Vr Logo*/
+.backgroud-banner .banner .logo-vr .logo {
+    font-size: 40px;
+    margin-left: 15px;
+}
+
+/* Vr Title */
+.backgroud-banner .banner .logo-vr .vr-title {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Line Left Right */
+.backgroud-banner .banner .logo-vr span {
+    display: flex;
+    align-items: center;
+}
+
+/* Letter Spacing */
+.backgroud-banner .banner .logo-vr span p {
+    letter-spacing: 2px;
+    margin: 0px 2px;
+}
+/* Circle Logo */
+.backgroud-banner .banner .logo-vr span i {
+    font-size: 9px;
+}
+
+.backgroud-banner .banner .logo-vr span .left-line {
+    height: 1px;
+    width: 15px;
+    background-color: #ffffff;
+}
+
+.backgroud-banner .banner .logo-vr span .right-line {
+    height: 1px;
+    width: 15px;
+    background-color: #ffffff;
+}
+
+
+/* Title Middle */
+
+.backgroud-banner .banner .vr-name {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    width: 33%;
+    color: #fff;
+}
+
+/* Vr */
+.backgroud-banner .banner .vr img {
+    width: 200px;
+}
 
 /* Responsive */
 @media (min-width: 1200px) {
@@ -1173,6 +1258,10 @@ body {
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    .backgroud-banner .banner {
+        width: 80%;
+    }
+
     .product-section .cotent-product-section {
         width: 80%;
     }
@@ -1205,6 +1294,27 @@ body {
     .content-section .main-content {
         width: 80%;
         transition: all .5s;
+    }
+
+    /* Banner */
+    .backgroud-banner .banner {
+        background-position: center;
+    }
+
+    /* Logo Vr Logo*/
+    .backgroud-banner .banner .logo-vr .logo {
+        font-size: 30px;
+        margin-left: 25px;
+    }
+
+    /* Vr */
+    .backgroud-banner .banner .vr img {
+        width: 150px;
+    }
+
+    /* Title Middle */
+    .backgroud-banner .banner .vr-name {
+        font-size: 18px;
     }
 
     /* Btn Add to Cart */
@@ -1542,6 +1652,10 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+    .backgroud-banner .banner {
+        width: 90%;
+    }
+
     .product-section .cotent-product-section {
         width: 90%;
     }
@@ -1553,6 +1667,28 @@ body {
     .title-section .content-title-section {
         width: 90%;
     }
+
+    /* Banner */
+    .backgroud-banner .banner {
+        background-position: center;
+    }
+
+    /* Logo Vr Logo*/
+    .backgroud-banner .banner .logo-vr .logo {
+        font-size: 30px;
+        margin-left: 25px;
+    }
+
+    /* Vr */
+    .backgroud-banner .banner .vr img {
+        width: 100px;
+    }
+
+    /* Title Middle */
+    .backgroud-banner .banner .vr-name {
+        font-size: 18px;
+    }
+
 
     .brand-section {
         padding-top: 35px;
@@ -2072,6 +2208,10 @@ body {
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+    .backgroud-banner .banner {
+        width: 93%;
+    }
+
     .product-section .cotent-product-section {
         width: 93%;
     }
@@ -2082,6 +2222,30 @@ body {
 
     .title-section .content-title-section {
         width: 93%;
+    }
+    /* Vr Title */
+    .backgroud-banner .banner .logo-vr .vr-title {
+        font-size: 10px;
+    }
+
+    /* Circle Logo */
+    .backgroud-banner .banner .logo-vr span i {
+        font-size: 8px;
+    }
+    /* Logo Vr Logo*/
+    .backgroud-banner .banner .logo-vr .logo {
+        font-size: 25px;
+        margin-left: 28px;
+    }
+
+    /* Vr */
+    .backgroud-banner .banner .vr img {
+        width: 100px;
+    }
+
+    /* Title Middle */
+    .backgroud-banner .banner .vr-name {
+        font-size: 13px;
     }
 
     .brand-section {
@@ -2631,6 +2795,9 @@ body {
 }
 
 @media (max-width: 575.98px) {
+    .backgroud-banner .banner {
+        width: 95%;
+    }
     .product-section .cotent-product-section {
         width: 95%;
     }
@@ -2638,6 +2805,7 @@ body {
     .product-section .cotent-product-section .content {
         height: 250px;
     }
+
     .title-section .content-title-section {
         width: 95%;
     }
@@ -2668,6 +2836,31 @@ body {
     .navbar-section .content-navbar {
         width: 95%;
     }
+    /* Vr Title */
+    .backgroud-banner .banner .logo-vr .vr-title {
+        font-size: 10px;
+    }
+
+    /* Circle Logo */
+    .backgroud-banner .banner .logo-vr span i {
+        font-size: 8px;
+    }
+    /* Logo Vr Logo*/
+    .backgroud-banner .banner .logo-vr .logo {
+        font-size: 25px;
+        margin-left: 28px;
+    }
+
+    /* Vr */
+    .backgroud-banner .banner .vr img {
+        width: 100px;
+    }
+
+    /* Title Middle */
+    .backgroud-banner .banner .vr-name {
+        font-size: 13px;
+    }
+
     /* Btn Add to Cart */
     .btn-add-to-cart {
         width: 100%;
