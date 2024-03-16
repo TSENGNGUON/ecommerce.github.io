@@ -1306,339 +1306,124 @@ body {
     color: #fff;
 }
 
-/* Four Products Content */
-.phone-tablet-section .phone-content-tablet .product-content .products {
+/* Parent Product */
+
+.phone-tablet-section .phone-content-tablet .product-content .parent-products {
     width: 100%;
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    background-color: #ffffff;
     height: 350px;
-    border-bottom: 1px solid #949494;
-    border-right: 1px solid #949494;
+    background-color: yellow;
+    flex-wrap: wrap;
 }
 
-/* Pro One */
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-one {
-    display: flex;
+.phone-tablet-section .phone-content-tablet .product-content .parent-products .box {
     width: 50%;
-    height: 175px;
-    margin-bottom: 95px;
     border-right: 1px solid #949494;
     border-bottom: 1px solid #949494;
+    display: flex;
+    height: 175px;
+    font-size: 12px;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffffff;
 }
 
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-one .footer-title {
-    padding: 0px 0px;
-}
 
-
-
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-one .for-title {
+.phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title {
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    margin-top: 10px;
-    margin-left: 20px;
-}
-
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-one .for-title .cart-box {
-    display: flex;
-    width: 100%;
-    height: 50px;
-}
-
-
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-one .for-image {
-    width: 50%;
-    margin-top: 30px;
-    margin-left: 70px;
-}
-
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-one .for-image .image img {
-    width: 100px;
-}
-
-
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-one .title {
-    font-size: 15px;
-}
-
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-one .rating {
-    font-size: 11px;
-}
-
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-one .cost {
-    font-size: 15px;
-    font-weight: bold;
-    margin-top: 10px;
-}
-
-/* Btn Add to Cart */
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-one .for-title .cart-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-one .for-title .cart-box .btn-add-to-cart {
-    /* width: 100%; */
-    align-items: center;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-}
-
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-one .for-title .cart-box .btn-add-to-cart .add-to {
-    padding: 6px 6px;
-    font-size: 11px;
-}
-
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-one .for-title .cart-box .btn-add-to-cart .add-to i {
-    padding-right: 3px;
-}
-
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-one .for-title .cart-box .right-left i {
-    color: #0077b6;
-}
-
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-one .for-title .cart-box .right-left {
-    padding: 2px 6px;
-    border: 1px solid #0077b6;
-    font-size: 14px;
-    border-radius: 3px;
-    margin-left: 5px;
-}
-
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-one .for-title .cart-box .btn-love {
-    padding: 2px 6px;
-    border: 1px solid #0077b6;
-    font-size: 14px;
-    border-radius: 3px;
-    margin-left: 5px;
-}
-
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-one .for-title .cart-box .btn-love i {
-    padding: 0px 0px;
-    color: #0077b6;
-}
-
-/* Pro Two */
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-two {
-    display: flex;
-    width: 50%;
     height: 175px;
-    margin-bottom: 95px;
-    border-bottom: 1px solid #949494;
+    padding: 30px 0px 0px 30px;
 }
 
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-two .footer-title {
-    padding: 0px 0px;
-    margin-top: 10px;
-}
-
-
-
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-two .footer-title {
-    width: 50%;
+.phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .btn-cart {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 10px;
-    margin-left: 20px;
 }
 
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-two .footer-title .cart-box {
-    display: flex;
-    width: 100%;
-    height: 50px;
+.phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .text {
+    font-size: 13px;
+    color: #333;
+    padding-bottom: 10px;
 }
 
-
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-two .image {
-    width: 50%;
-    margin-top: 30px;
-    margin-left: 70px;
+.phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .star {
+    color: #ffd60a;
+    padding-bottom: 10px;
 }
 
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-two .image img {
+.phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .price {
+    color: #333;
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.phone-tablet-section .phone-content-tablet .product-content .parent-products .box .photo img {
     width: 100px;
 }
 
-
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-two .title {
-    font-size: 15px;
-    color: #0079bb;
-}
-
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-two .rating {
-    font-size: 11px;
-    margin-top: 10px;
-}
-
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-two .cost {
-    font-size: 15px;
-    font-weight: bold;
-    margin-top: 10px;
-}
-
-/* Btn Add to Cart */
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-two .footer-title .cart-box {
+.phone-tablet-section .phone-content-tablet .product-content .parent-products .box .photo {
+    width: 50%;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-two .footer-title .cart-box .btn-add-to-cart {
-    /* width: 100%; */
-    align-items: center;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-}
-
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-two .footer-title .cart-box .btn-add-to-cart .add-to {
-    padding: 6px 6px;
-    font-size: 11px;
-    background-color: #fca311;
-}
-
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-two .footer-title .cart-box .btn-add-to-cart .add-to i {
-    padding-right: 3px;
-}
-
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-two .footer-title .cart-box .right-left i {
-    color: #0077b6;
-}
-
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-two .footer-title .cart-box .right-left {
-    padding: 2px 6px;
-    border: 1px solid #0077b6;
-    font-size: 14px;
-    border-radius: 3px;
-    margin-left: 5px;
-}
-
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-two .footer-title .cart-box .btn-love {
-    padding: 2px 6px;
-    border: 1px solid #0077b6;
-    font-size: 14px;
-    border-radius: 3px;
-    margin-left: 5px;
-}
-
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-two .footer-title .cart-box .btn-love i {
-    padding: 0px 0px;
-    color: #0077b6;
-}
-
-
-/* Pro Three */
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-three {
-    display: flex;
-    width: 50%;
-    height: 175px;
-    margin-bottom: 95px;
-    border-right: 1px solid #949494;
-    border-bottom: 1px solid #949494;
-}
-
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-three .footer-title {
-    padding: 0px 0px;
-}
-
-
-
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-one .for-title {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 10px;
-    margin-left: 20px;
-}
-
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-one .for-title .cart-box {
-    display: flex;
-    width: 100%;
-    height: 50px;
-}
-
-
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-one .for-image {
-    width: 50%;
-    margin-top: 30px;
-    margin-left: 70px;
-}
-
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-one .for-image .image img {
-    width: 100px;
-}
-
-
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-one .title {
-    font-size: 15px;
-}
-
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-one .rating {
-    font-size: 11px;
-}
-
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-one .cost {
-    font-size: 15px;
-    font-weight: bold;
-    margin-top: 10px;
-}
-
-/* Btn Add to Cart */
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-one .for-title .cart-box {
+/* Cart Btn */
+.phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .btn-cart .btn {
+    padding: 5px 7px;
+    border-radius: 4px;
+    background-color: #8ac926;
+    color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all .5s;
 }
 
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-one .for-title .cart-box .btn-add-to-cart {
-    /* width: 100%; */
-    align-items: center;
+.phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .btn-cart .btn:hover {
+    background-color: #ffffff;
+    border: 1px solid #8ac926;
+    color: #8ac926;
+}
+
+.phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .btn-cart .btn i {
+    margin-right: 5px;
+}
+
+.phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .btn-cart .btn-love {
+    color: #8ac926;
+    margin-left: 5px;
+    padding: 5px 6px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #8ac926;
+    transition: all .5s;
+}
+
+.phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .btn-cart .btn-love:hover {
+    color: #fff;
+    background-color: #8ac926;
+}
+
+.phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .btn-cart .btn-replace {
     text-align: center;
-    padding: 0;
-    margin: 0;
-}
-
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-one .for-title .cart-box .btn-add-to-cart .add-to {
-    padding: 6px 6px;
-    font-size: 11px;
-}
-
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-one .for-title .cart-box .btn-add-to-cart .add-to i {
-    padding-right: 3px;
-}
-
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-one .for-title .cart-box .right-left i {
-    color: #0077b6;
-}
-
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-one .for-title .cart-box .right-left {
-    padding: 2px 6px;
-    border: 1px solid #0077b6;
-    font-size: 14px;
-    border-radius: 3px;
+    color: #8ac926;
     margin-left: 5px;
+    padding: 5px 6px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #8ac926;
+    transition: all .5s;
 }
 
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-one .for-title .cart-box .btn-love {
-    padding: 2px 6px;
-    border: 1px solid #0077b6;
-    font-size: 14px;
-    border-radius: 3px;
-    margin-left: 5px;
+.phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .btn-cart .btn-replace:hover {
+    color: #fff;
+    background-color: #8ac926;
 }
 
-.phone-tablet-section .phone-content-tablet .product-content .products .pro-one .for-title .cart-box .btn-love i {
-    padding: 0px 0px;
-    color: #0077b6;
-}
+
+
 
 
 
@@ -1663,6 +1448,20 @@ body {
         width: 72%;
         transition: all .5s;
     }
+
+    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .btn-cart .btn {
+        padding: 5px 12px;
+        font-size: 8px;
+    }
+
+    /* Title Text */
+    .phone-tablet-section .phone-content-tablet .img-content .title .header-title {
+        width: 80%;
+        font-size: 13px;
+        font-weight: 600;
+        padding-left: 5px;
+    }
+
 
     /* Btn Add to Cart */
     .btn-add-to-cart {
@@ -1840,6 +1639,13 @@ body {
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* Main Phone and Tablet */
+    .phone-tablet-section .phone-content-tablet {
+        width: 80%;
+        transition: all .5s;
+    }
+
     .backgroud-banner .banner {
         width: 80%;
     }
@@ -1878,6 +1684,32 @@ body {
         transition: all .5s;
     }
 
+    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title {
+        font-size: 1px;
+    }
+
+    /* A Tag of List */
+    .phone-tablet-section .phone-content-tablet .product-content .menu-brand .list-menu-brand ul li a {
+        font-size: 14px;
+    }
+
+    /* Title Text */
+    .phone-tablet-section .phone-content-tablet .img-content .title .header-title {
+        font-size: 12px;
+        padding-left: 5px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content .title .icon {
+        font-size: 10px;
+    }
+
+
+    /* Btn Add to Cart */
+    .btn-add-to-cart {
+        width: 100%;
+    }
+
+
     /* Banner */
     .backgroud-banner .banner {
         background-position: center;
@@ -1909,7 +1741,7 @@ body {
 
     .btn-add-to-cart .add-to {
         padding: 6px 6px;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .btn-add-to-cart .add-to i {
@@ -2234,6 +2066,11 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+
+    .phone-tablet-section .phone-content-tablet {
+        width: 90%;
+    }
+
     .backgroud-banner .banner {
         width: 90%;
     }
@@ -2248,6 +2085,30 @@ body {
 
     .title-section .content-title-section {
         width: 90%;
+    }
+
+    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title {
+        font-size: 8px;
+    }
+
+    /* A Tag of List */
+    .phone-tablet-section .phone-content-tablet .product-content .menu-brand .list-menu-brand ul li a {
+        font-size: 13px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .btn-cart .btn {
+        padding: 2px 2px;
+        font-size: 5px;
+    }
+
+    /* Title Text */
+    .phone-tablet-section .phone-content-tablet .img-content .title .header-title {
+        font-size: 10px;
+        padding-left: 9px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content .title .icon {
+        font-size: 10px;
     }
 
     /* Banner */
@@ -2790,6 +2651,11 @@ body {
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+
+    .phone-tablet-section .phone-content-tablet {
+        width: 93%;
+    }
+
     .backgroud-banner .banner {
         width: 93%;
     }
@@ -2805,6 +2671,148 @@ body {
     .title-section .content-title-section {
         width: 93%;
     }
+
+    /* Section Product Phone & Tablet */
+    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title {
+        font-size: 8px;
+        padding-bottom: 5px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .text {
+        font-size: 10px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .star {
+        font-size: 10px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .price {
+        font-size: 10px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .btn-cart {
+        width: 100%;
+    }
+
+    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .btn-cart .btn {
+        font-size: 1px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .btn-cart .btn-love {
+        font-size: 5px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .btn-cart .btn-replace {
+        font-size: 5px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .photo img {
+        width: 70px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box {
+        width: 50%;
+        height: 150px;
+        font-size: 12px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .product-content .parent-products {
+        height: 300px;
+    }
+
+    /* Btn Shop Now */
+    .phone-tablet-section .phone-content-tablet .img-content .img-title .shop-now {
+        margin-top: 8px;
+        margin-left: 1px;
+        margin-right: 10px;
+    }
+
+
+    .phone-tablet-section .phone-content-tablet .img-content .img-title .shop-now a {
+        font-size: 10px
+    }
+
+    /* Content Image */
+    .phone-tablet-section .phone-content-tablet .img-content {
+        width: 20%;
+        background-image: url("../img/19.jpg");
+        background-position: center;
+        background-size: cover;
+        background-color: #eae9e9;
+        background-blend-mode: multiply;
+        height: 350px;
+    }
+
+    /* Main Img Title */
+    .phone-tablet-section .phone-content-tablet .img-content .img-title {
+        margin-left: 20px;
+    }
+
+    /* P Text Img Title */
+    .phone-tablet-section .phone-content-tablet .img-content .img-title p {
+        font-size: 30px;
+        color: #ffffff;
+    }
+
+    /* Span Style Text Img Title */
+    .phone-tablet-section .phone-content-tablet .img-content .img-title span {
+        font-weight: bold;
+        color: #9d0208;
+        text-shadow: 1px 1px 3px #a64b4b;
+        margin-top: 25px;
+    }
+
+    /* Text Highlight */
+    .phone-tablet-section .phone-content-tablet .img-content .img-title .text {
+        color: #fff;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    /* Price Highlight */
+    .phone-tablet-section .phone-content-tablet .img-content .img-title .price {
+        font-weight: bold;
+        margin-top: 5px;
+        font-size: 20px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content .img-title .price sup {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+
+    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title {
+        font-size: 8px;
+    }
+
+    /* A Tag of List */
+    .phone-tablet-section .phone-content-tablet .product-content .menu-brand .list-menu-brand ul li {
+        display: flex;
+        align-items: center;
+    }
+
+    .phone-tablet-section .phone-content-tablet .product-content .menu-brand .list-menu-brand ul li a {
+        font-size: 8px;
+
+    }
+
+    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .btn-cart .btn {
+        padding: 2px 2px;
+        font-size: 5px;
+    }
+
+    /* Title Text */
+    .phone-tablet-section .phone-content-tablet .img-content .title .header-title {
+        font-size: 6px;
+        padding-left: 18px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content .title .icon {
+        font-size: 1px;
+    }
+
+    /* End of Section Product Phone & Tablet */
 
     /* Vr Title */
     .backgroud-banner .banner .logo-vr .vr-title {
