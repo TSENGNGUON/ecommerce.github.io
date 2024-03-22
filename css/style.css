@@ -2263,8 +2263,75 @@ body {
     color: #fca311;
 }
 
+.footer-search {
+    width: 100%;
+    margin-top: 30px;
+    background-color: #0077b6;
+    padding: 30px 0 30px 0;
+}
 
+.footer-search .content {
+    width: 72%;
+    margin: auto;
+    color: #ffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.footer-search .content .title .title-t {
+    font-weight: bold;
+}
+
+.footer-search .content .title .title-b {
+    font-size: 13px;
+}
+
+.footer-search .content .search {
+    background-color: #fff;
+    padding: 0px 0px;
+    width: 50%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-search .content .search input {
+    outline: 0;
+    border: 0;
+    border-radius: 30px;
+    padding-left: 30px;
+}
+
+.footer-search .content .search a {
+    text-decoration: none;
+    color: #fff;
+    padding: 14px 14px;
+    background-color: #fca311;
+    border-radius: 30px;
+    font-size: 13px;
+}
+
+.footer-search .content .search input::placeholder {
+    padding-left: 30px;
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+}
+
+.footer .content {
+    width: 72%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .content .col .link {
+    display: flex;
+    flex-direction: column;
+}
 
 
 
