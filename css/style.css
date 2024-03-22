@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce:wght@400;500&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Russo+One&display=swap');
+
 
 html {
     scroll-behavior: smooth;
@@ -1130,7 +1132,7 @@ body {
     justify-content: center;
     align-items: center;
     color: #ffffff;
-    background-color: #c9184a;
+    background-color: #fca311;
 }
 
 /* Icon */
@@ -1144,7 +1146,7 @@ body {
     padding: 20px 15px;
     height: 50px;
     font-size: 13px;
-    background-color: #590d22;
+    background-color: #b87100;
 }
 
 /* Title Text */
@@ -1199,7 +1201,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-top: 2px solid #c9184a;
+    border-top: 2px solid #fca311;
     border-bottom: 1px solid #949494;
     border-right: 1px solid #949494;
 }
@@ -1382,9 +1384,9 @@ body {
 }
 
 .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .btn-cart .btn:hover {
-    background-color: #ffffff;
-    border: 1px solid #8ac926;
-    color: #8ac926;
+    background-color: #fca311;
+    border: 1px solid #fca311;
+    color: #ffffff;
 }
 
 .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .btn-cart .btn i {
@@ -1422,9 +1424,667 @@ body {
     background-color: #8ac926;
 }
 
+/* TV and Video */
+/* Content Image */
+
+/* Menu Brand */
+.phone-tablet-section .phone-content-tablet .product-content .tv {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid #4AD292;
+    border-bottom: 1px solid #949494;
+    border-right: 1px solid #949494;
+}
+
+
+/* Header Title */
+.phone-tablet-section .phone-content-tablet .img-content-tv-video .title div.tv i {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: #3a9e6f;
+}
+
+.phone-tablet-section .phone-content-tablet .img-content-tv-video .title .header-title-tv {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: #4AD292;
+}
+
+
+.phone-tablet-section .phone-content-tablet .img-content-tv-video {
+    width: 20%;
+    background-image: url("../img/22.jpg");
+    background-position: center;
+    background-size: cover;
+    background-color: #9BD3E8;
+    background-blend-mode: multiply;
+    height: 400px;
+    background-blend-mode: multiply;
+}
+
+.phone-tablet-section .phone-content-tablet .img-content-tv-video .title-tv-video p,
+.phone-tablet-section .phone-content-tablet .img-content-tv-video .title-tv-video span,
+.phone-tablet-section .phone-content-tablet .img-content-tv-video .title-tv-video .line {
+    margin: 5px 0px;
+}
 
 
 
+.phone-tablet-section .phone-content-tablet .img-content-tv-video .title-tv-video .line {
+    width: 100px;
+    height: 1px;
+    background-color: #535353;
+}
+
+.phone-tablet-section .phone-content-tablet .img-content-tv-video .title-tv-video {
+    margin-top: 30px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.phone-tablet-section .phone-content-tablet .img-content-tv-video .title-tv-video .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone-tablet-section .phone-content-tablet .img-content-tv-video .title-tv-video .icon img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.phone-tablet-section .phone-content-tablet .img-content-tv-video .title-tv-video .icon img.img-icon {
+    width: 10px;
+}
+
+.phone-tablet-section .phone-content-tablet .img-content-tv-video .title-tv-video p {
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.phone-tablet-section .phone-content-tablet .img-content-tv-video .title-tv-video span {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+/* Header Title */
+.phone-tablet-section .phone-content-tablet .img-content-tv-video .title {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: #c9184a;
+}
+
+/* Icon */
+.phone-tablet-section .phone-content-tablet .img-content-tv-video .title .icon {
+    width: 20%;
+    text-align: center;
+}
+
+/* Icon i */
+.phone-tablet-section .phone-content-tablet .img-content-tv-video .title .icon i {
+    padding: 20px 15px;
+    height: 50px;
+    font-size: 13px;
+    background-color: #590d22;
+}
+
+/* Title Text */
+.phone-tablet-section .phone-content-tablet .img-content-tv-video .title .header-title {
+    width: 80%;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* P tiltle Text */
+.phone-tablet-section .phone-content-tablet .img-content-tv-video .title .header-title p {
+    margin-left: 5px;
+}
+
+
+/* Fahsions */
+
+.phone-tablet-section .phone-content-tablet .product-content .parent-products .box .clothes img {
+    width: 70px;
+}
+
+/* Menu Brand */
+.phone-tablet-section .phone-content-tablet .product-content .border-top {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid #c9184a;
+    border-bottom: 1px solid #949494;
+    border-right: 1px solid #949494;
+}
+
+/* Header Title */
+.phone-tablet-section .phone-content-tablet .img-content-fahsion .title {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: #c9184a;
+}
+
+/* Icon */
+.phone-tablet-section .phone-content-tablet .img-content-fahsion .title .icon {
+    width: 20%;
+    text-align: center;
+}
+
+/* Icon i */
+.phone-tablet-section .phone-content-tablet .img-content-fahsion .title .icon i {
+    padding: 20px 15px;
+    height: 50px;
+    font-size: 13px;
+    background-color: #590d22;
+}
+
+/* Title Text */
+.phone-tablet-section .phone-content-tablet .img-content-fahsion .title .header-title-f {
+    width: 80%;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+/* P tiltle Text */
+.phone-tablet-section .phone-content-tablet .img-content-fahsion .title .header-title-f p {
+    margin-left: 5px;
+}
+
+.phone-tablet-section .phone-content-tablet .img-content-fahsion .title-fahsion {
+    position: relative;
+    color: #ffffff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+    height: 145px;
+}
+
+.phone-tablet-section .phone-content-tablet .img-content-fahsion .title-fahsion .icon {
+    position: relative;
+    position: absolute;
+    right: 5px;
+    bottom: 0;
+}
+
+.phone-tablet-section .phone-content-tablet .img-content-fahsion .title-fahsion p {
+    font-family: "Birthstone Bounce", cursive;
+    font-size: 30px;
+}
+
+
+.phone-tablet-section .phone-content-tablet .img-content-fahsion .title-fahsion span,
+
+.phone-tablet-section .phone-content-tablet .img-content-fahsion .title-fahsion p.alter-t {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.phone-tablet-section .phone-content-tablet .img-content-fahsion .title-fahsion .icon p {
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+    top: 40px;
+    left: 15px;
+}
+
+.phone-tablet-section .phone-content-tablet .img-content-fahsion .title-fahsion p.alter-t,
+.phone-tablet-section .phone-content-tablet .img-content-fahsion .title-fahsion .icon p {
+    font-family: "Open Sans", sans-serif;
+}
+
+.phone-tablet-section .phone-content-tablet .img-content-fahsion .title-fahsion .icon i {
+    font-size: 70px;
+    color: #c9184a;
+}
+
+
+
+.phone-tablet-section .phone-content-tablet .img-content-fahsion .title-fahsion .icon span {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.phone-tablet-section .phone-content-tablet .img-content-fahsion {
+    width: 20%;
+    background-image: url("../img/30.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+/* Electronics */
+/* Menu Brand */
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand-elec {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid skyblue;
+    border-bottom: 1px solid #949494;
+    border-right: 1px solid #949494;
+}
+
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand-elec .list-menu-brand {
+    width: 80%;
+}
+
+/* Header Of List */
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand-elec .list-menu-brand ul {
+    list-style-type: none;
+    display: flex;
+}
+
+/* Heigh Of Width */
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand-elec .list-menu-brand ul li {
+    /* padding: 15px 15px; */
+    padding-left: 0px;
+}
+
+/* A Tag of List */
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand-elec .list-menu-brand ul li a {
+    text-decoration: none;
+    padding: 0px 30px 0px 0px;
+    color: #333;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* Main of Chevron */
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand-elec .chevron {
+    display: flex;
+}
+
+/* Chevron Left Right */
+.phone-tablet-section .phone-content-tablet .product-content.menu-brand-elec .chevron {
+    display: flex;
+    align-items: center;
+}
+
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand-elec .chevron span {
+    display: flex;
+    background-color: #333;
+    padding: 8px 10px;
+    border-radius: 3px;
+    margin: 0px 5px;
+    text-align: center;
+    align-items: center;
+    font-size: 10px;
+    color: #ffffff;
+}
+
+/* Electronics */
+/* Content Image */
+.phone-tablet-section .phone-content-tablet .img-content-elec {
+    width: 20%;
+    background-image: url("../img/36.jpg");
+    background-position-y: 50px;
+    background-position-x: 45%;
+    background-size: cover;
+    background-color: #eae9e9;
+    background-blend-mode: multiply;
+    height: 400px;
+}
+
+/* Header Title */
+.phone-tablet-section .phone-content-tablet .img-content-elec .title {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    background-color: skyblue;
+}
+
+.phone-tablet-section .phone-content-tablet .img-content-elec .title .header-title-elec {
+    padding-right: 40px;
+}
+
+
+/* Icon i */
+.phone-tablet-section .phone-content-tablet .img-content-elec .title .icon-elec i {
+    padding: 20px 15px;
+    height: 50px;
+    font-size: 13px;
+    background-color: rgb(77, 147, 175);
+}
+
+/* Main Title */
+.phone-tablet-section .phone-content-tablet .img-content-elec div.main-title-elec {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    margin-top: 230px;
+}
+
+.phone-tablet-section .phone-content-tablet .img-content-elec div.main-title-elec .title-elec {
+    background-color: #333;
+    color: #ffd60a;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+}
+
+.phone-tablet-section .phone-content-tablet .img-content-elec div.main-title-elec .title-second p {
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.phone-tablet-section .phone-content-tablet .img-content-elec div.main-title-elec .title-shop-now a {
+    color: #fff;
+    font-size: 12px;
+}
+
+/* Home and Kitchen */
+/* Menu Brand */
+.phone-tablet-section .phone-content-tablet .product-content .menu-h-k {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid rgb(18, 236, 236);
+    border-bottom: 1px solid #949494;
+    border-right: 1px solid #949494;
+}
+
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand-elec .list-menu-brand {
+    width: 80%;
+}
+
+/* Header Of List */
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand-elec .list-menu-brand ul {
+    list-style-type: none;
+    display: flex;
+}
+
+/* Heigh Of Width */
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand-elec .list-menu-brand ul li {
+    /* padding: 15px 15px; */
+    padding-left: 0px;
+}
+
+/* A Tag of List */
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand-elec .list-menu-brand ul li a {
+    text-decoration: none;
+    padding: 0px 30px 0px 0px;
+    color: #333;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* Main of Chevron */
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand-elec .chevron {
+    display: flex;
+}
+
+/* Chevron Left Right */
+.phone-tablet-section .phone-content-tablet .product-content.menu-brand-elec .chevron {
+    display: flex;
+    align-items: center;
+}
+
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand-elec .chevron span {
+    display: flex;
+    background-color: #333;
+    padding: 8px 10px;
+    border-radius: 3px;
+    margin: 0px 5px;
+    text-align: center;
+    align-items: center;
+    font-size: 10px;
+    color: #ffffff;
+}
+
+/* Home and Kitchen */
+/* Content Image */
+.phone-tablet-section .phone-content-tablet .img-content-h-k {
+    width: 20%;
+    background-image: url("../img/44.jpg");
+    background-position-y: 50px;
+    background-position-x: 45%;
+    background-size: calc(20% + 200px);
+    background-color: #eae9e9;
+    background-blend-mode: multiply;
+    height: 400px;
+}
+
+/* Header Title */
+.phone-tablet-section .phone-content-tablet .img-content-h-k .title {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    background-color: rgb(18, 236, 236);
+}
+
+.phone-tablet-section .phone-content-tablet .img-content-h-k .title .header-title-h-k {
+    padding-right: 10px;
+}
+
+
+/* Icon i */
+.phone-tablet-section .phone-content-tablet .img-content-h-k .title .icon-h-k i {
+    padding: 20px 15px;
+    height: 50px;
+    font-size: 13px;
+    background-color: rgb(72, 197, 197);
+}
+
+.phone-tablet-section .phone-content-tablet .img-content-h-k .title-h-k {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.phone-tablet-section .phone-content-tablet .img-content-h-k .title-h-k .f-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.phone-tablet-section .phone-content-tablet .img-content-h-k .title-h-k .s-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.phone-tablet-section .phone-content-tablet .img-content-h-k .title-h-k .shop-now-h-k a {
+    text-decoration: none;
+    font-size: 12px;
+    padding: 5px 10px;
+    background-color: #ffff;
+    color: black;
+    border-radius: 3px;
+}
+
+/* Two Content */
+.two-content {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.two-content .content {
+    width: 72%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.two-content .content .c-l .image .content-img {
+    background-image: url("../img/50.jpg");
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.two-content .content .c-r .image .content-img {
+    background-image: url("../img/52.jpg");
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: end;
+    color: #333;
+}
+
+.two-content .content .c-r .image .content-img .align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.two-content .content .c-r .image .content-img .align .f-title {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.two-content .content .c-r .image .content-img .align .s-title{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.two-content .content .c-r .image .content-img .align .t-title{
+    font-weight: 600;
+}
+
+.two-content .content .c-r .image .content-img .align .line {
+    width: 135px;
+    height: 1px;
+    background-color: #333;
+}
+
+.two-content .content .content-box {
+    width: 49%;
+    height: 500px;
+    background-color: #ffff;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.two-content .content .content-box .header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 10%;
+    background-color: green;
+}
+
+.two-content .content .content-box .header .chevron {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.two-content .content .content-box .header .chevron .l i,
+.two-content .content .content-box .header .chevron .r i {
+    padding: 5px 8px;
+    background-color: #333333;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+
+.two-content .content .content-box .header .chevron .l,
+.two-content .content .content-box .header .chevron .r {
+    padding-right: 5px;
+}
+
+.two-content .content .content-box .header .text {
+    padding-left: 10px;
+}
+
+.two-content .content .c-l .header {
+    background-color: skyblue;
+}
+
+.two-content .content .c-r .header {
+    background-color: rgb(202, 52, 52);
+}
+
+.two-content .content .content-box .header .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.two-content .content .content-box .header .title .icon i {
+    padding: 16px 16px;
+    background-color: rgb(50, 143, 179);
+}
+
+.two-content .content .c-r .header .title .icon i {
+    padding: 16px 16px;
+    background-color: rgb(141, 0, 0);
+}
+
+
+.two-content .content .content-box .image {
+    height: 30%;
+}
+
+.two-content .content .content-box .products {
+    height: 70%;
+}
 
 
 /* Responsive */
@@ -1685,7 +2345,12 @@ body {
     }
 
     .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title {
-        font-size: 1px;
+        font-size: 10px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .btn-cart div.btn {
+        padding: 5px 5px;
+        font-size: 6px;
     }
 
     /* A Tag of List */
@@ -2097,8 +2762,8 @@ body {
     }
 
     .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .btn-cart .btn {
-        padding: 2px 2px;
-        font-size: 5px;
+        padding: 5px 5px;
+        font-size: 6px;
     }
 
     /* Title Text */
@@ -2673,9 +3338,15 @@ body {
     }
 
     /* Section Product Phone & Tablet */
-    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title {
+    /* Main of Chevron */
+    .phone-tablet-section .phone-content-tablet .product-content .menu-brand .chevron {
+        display: flex;
+    }
+
+    /* Chevron Left Right */
+
+    .phone-tablet-section .phone-content-tablet .product-content .menu-brand .chevron span {
         font-size: 8px;
-        padding-bottom: 5px;
     }
 
     .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .text {
@@ -2683,27 +3354,37 @@ body {
     }
 
     .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .star {
-        font-size: 10px;
+        font-size: 8px;
     }
 
     .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .price {
-        font-size: 10px;
+        font-size: 9px;
     }
 
     .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .btn-cart {
-        width: 100%;
+        width: 555px;
+        margin-top: 15px;
     }
 
-    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .btn-cart .btn {
-        font-size: 1px;
+    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .btn-cart .btn i {
+        font-size: 5px;
+        margin-right: 2px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .btn-cart div.btn {
+        font-size: 6px;
+        padding: 3px 4px;
     }
 
     .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .btn-cart .btn-love {
-        font-size: 5px;
+        font-size: 8px;
+        padding: 3px 4px;
     }
 
     .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .btn-cart .btn-replace {
-        font-size: 5px;
+        font-size: 8px;
+        padding: 3px 4px;
+
     }
 
     .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .photo img {
@@ -2781,11 +3462,6 @@ body {
         font-weight: 600;
     }
 
-
-    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title {
-        font-size: 8px;
-    }
-
     /* A Tag of List */
     .phone-tablet-section .phone-content-tablet .product-content .menu-brand .list-menu-brand ul li {
         display: flex;
@@ -2799,7 +3475,7 @@ body {
 
     .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .btn-cart .btn {
         padding: 2px 2px;
-        font-size: 5px;
+        font-size: 3px;
     }
 
     /* Title Text */
@@ -3387,6 +4063,10 @@ body {
 }
 
 @media (max-width: 575.98px) {
+    .phone-tablet-section .phone-content-tablet {
+        width: 95%;
+    }
+
     .backgroud-banner .banner {
         width: 95%;
     }
@@ -3429,6 +4109,159 @@ body {
     .navbar-section .content-navbar {
         width: 95%;
     }
+
+    /* Section Product Phone & Tablet */
+    /* Main of Chevron */
+    .phone-tablet-section .phone-content-tablet .product-content .menu-brand .chevron {
+        display: flex;
+    }
+
+    /* Chevron Left Right */
+
+    .phone-tablet-section .phone-content-tablet .product-content .menu-brand .chevron span {
+        font-size: 8px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title {
+        font-size: 5px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .text {
+        font-size: 7px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .star {
+        font-size: 6px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .price {
+        font-size: 6px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .btn-cart {
+        width: 100%;
+    }
+
+    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .btn-cart .btn {
+        font-size: 1px;
+        padding: 3px 8px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .btn-cart .btn-love {
+        font-size: 5px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .btn-cart .btn-replace {
+        font-size: 5px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .photo img {
+        width: 70px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box {
+        width: 50%;
+        height: 150px;
+        font-size: 12px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .product-content .parent-products {
+        height: 300px;
+    }
+
+    /* Btn Shop Now */
+    .phone-tablet-section .phone-content-tablet .img-content .img-title .shop-now {
+        margin-top: 8px;
+        margin-left: 1px;
+        margin-right: 10px;
+    }
+
+
+    .phone-tablet-section .phone-content-tablet .img-content .img-title .shop-now a {
+        font-size: 10px
+    }
+
+    /* Content Image */
+    .phone-tablet-section .phone-content-tablet .img-content {
+        width: 20%;
+        background-image: url("../img/19.jpg");
+        background-position: center;
+        background-size: cover;
+        background-color: #eae9e9;
+        background-blend-mode: multiply;
+        height: 350px;
+    }
+
+    /* Main Img Title */
+    .phone-tablet-section .phone-content-tablet .img-content .img-title {
+        margin-left: 20px;
+    }
+
+    /* P Text Img Title */
+    .phone-tablet-section .phone-content-tablet .img-content .img-title p {
+        font-size: 30px;
+        color: #ffffff;
+    }
+
+    /* Span Style Text Img Title */
+    .phone-tablet-section .phone-content-tablet .img-content .img-title span {
+        font-weight: bold;
+        color: #9d0208;
+        text-shadow: 1px 1px 3px #a64b4b;
+        margin-top: 25px;
+    }
+
+    /* Text Highlight */
+    .phone-tablet-section .phone-content-tablet .img-content .img-title .text {
+        color: #fff;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    /* Price Highlight */
+    .phone-tablet-section .phone-content-tablet .img-content .img-title .price {
+        font-weight: bold;
+        margin-top: 5px;
+        font-size: 20px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content .img-title .price sup {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+
+    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title {
+        font-size: 8px;
+    }
+
+    /* A Tag of List */
+    .phone-tablet-section .phone-content-tablet .product-content .menu-brand .list-menu-brand ul li {
+        display: flex;
+        align-items: center;
+    }
+
+    .phone-tablet-section .phone-content-tablet .product-content .menu-brand .list-menu-brand ul li a {
+        font-size: 8px;
+
+    }
+
+    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .btn-cart .btn {
+        padding: 2px 2px;
+        font-size: 3px;
+    }
+
+    /* Title Text */
+    .phone-tablet-section .phone-content-tablet .img-content .title .header-title {
+        font-size: 6px;
+        padding-left: 18px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content .title .icon {
+        font-size: 1px;
+    }
+
+    /* End of Section Product Phone & Tablet */
 
     /* Vr Title */
     .backgroud-banner .banner .logo-vr .vr-title {
