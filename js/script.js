@@ -20,6 +20,25 @@ var x = setInterval(() => {
 
 }, 1000);
 
+
+// Chevron Left TV 
+const chevronLeftTv = document.querySelector(".chevron-left-tv");
+
+// Chevron Left TV 
+const chevronRightTv =  document.querySelector(".chevron-right-tv");
+
+// Menu Btn of Tv and Video Menu
+const btnTelevisions = document.querySelector(".televisions");
+
+// Menu btn Audio
+const btnAudio = document.querySelector(".audio");
+
+// Menu Btn Projector
+const btnProjector = document.querySelector(".projector");
+
+// Menu btn See More Tv
+const btnSeeMoreTv = document.querySelector(".see-more-tv");
+
 // See Mores
 const btnSeeMore = document.querySelector(".see-more");
 
@@ -63,6 +82,51 @@ const chevronLeft1 = document.querySelector(".chevron-left1");
 const chevronRight1 = document.querySelector(".chevron-right1");
 
 var bool = true;
+
+
+// Click on Chevron Left or Right TV and Video
+chevronLeftTv.addEventListener("click",function(){
+    chevronLeftTv.classList.add("active");
+    chevronRightTv.classList.remove("active");
+})
+
+chevronRightTv.addEventListener("click",function(){
+    chevronLeftTv.classList.remove("active");
+    chevronRightTv.classList.add("active");
+})
+
+
+// CLick on Televison Menu
+btnTelevisions.addEventListener("click",function(){
+    btnTelevisions.classList.add("active");
+    btnAudio.classList.remove("active");
+    btnProjector.classList.remove("active");
+    btnSeeMoreTv.classList.remove("active");
+    
+})
+// CLick on Audio Menu
+btnAudio.addEventListener("click",function(){
+    btnTelevisions.classList.remove("active");
+    btnAudio.classList.add("active");
+    btnProjector.classList.remove("active");
+    btnSeeMoreTv.classList.remove("active");
+})
+// CLick on Projector Menu
+btnProjector.addEventListener("click",function(){
+    btnTelevisions.classList.remove("active");
+    btnAudio.classList.remove("active");
+    btnProjector.classList.add("active");
+    btnSeeMoreTv.classList.remove("active");
+})
+// CLick on See More Menu
+btnSeeMoreTv.addEventListener("click",function(){
+    btnTelevisions.classList.remove("active");
+    btnAudio.classList.remove("active");
+    btnProjector.classList.remove("active");
+    btnSeeMoreTv.classList.add("active");
+})
+
+
 
 
 // Click SmartPhone 
