@@ -3176,7 +3176,51 @@ body {
         width: 90%;
     }
 
+    /* Fashion Resp */
+
+    .phone-tablet-section .phone-content-tablet .img-content-fahsion .title-fahsion .icon p {
+        top: 35px;
+        left: 34px;
+        font-size: 10px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-fahsion .title-fahsion .icon span {
+        left: 40px;
+        font-size: 18px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-fahsion .title-fahsion .icon i {
+        font-size: 60px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-fahsion .title-fahsion p {
+        font-size: 25px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-fahsion .title-fahsion span,
+    .phone-tablet-section .phone-content-tablet .img-content-fahsion .title-fahsion p.alter-t {
+        font-size: 20px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-fahsion .title-fahsion {
+        margin-top: 80px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-fahsion .title-fahsion .icon i {
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-fahsion .title .header-title-f p {
+        font-size: 10px;
+        margin-left: 25px;
+    }
+
     /* TV and Video */
+    .phone-tablet-section .phone-content-tablet .img-content-tv-video .title .header-title-tv p {
+        font-size: 10px;
+    }
+
     .phone-tablet-section .phone-content-tablet .img-content-tv-video .title-tv-video {
         margin-top: 10px;
     }
@@ -3209,7 +3253,7 @@ body {
 
     /* A Tag of List */
     .phone-tablet-section .phone-content-tablet .product-content .menu-brand .list-menu-brand ul li a {
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .btn-cart .btn {
@@ -3788,7 +3832,57 @@ body {
         width: 93%;
     }
 
+    /* Fashion Resp */
+    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .photo img {
+        width: 50px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-fahsion .title-fahsion .icon p {
+        top: 35px;
+        left: 34px;
+        font-size: 10px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-fahsion .title-fahsion .icon span {
+        left: 40px;
+        font-size: 18px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-fahsion .title-fahsion .icon i {
+        font-size: 60px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-fahsion .title-fahsion p {
+        font-size: 25px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-fahsion .title-fahsion span,
+    .phone-tablet-section .phone-content-tablet .img-content-fahsion .title-fahsion p.alter-t {
+        font-size: 20px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-fahsion .title-fahsion {
+        margin-top: 80px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-fahsion .title-fahsion .icon i {
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-fahsion .title .header-title-f p {
+        font-size: 6px;
+        margin-left: 25px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-fahsion {
+        height: 350px;
+    }
+
+
+
     /* TV and Video */
+
     .phone-tablet-section .phone-content-tablet .img-content-tv-video .title .header-title-tv {
         margin-left: 17px;
     }
@@ -3799,6 +3893,7 @@ body {
 
     .phone-tablet-section .phone-content-tablet .img-content-tv-video .title div.tv i {
         padding: 20px 20px;
+        font-size: 13px;
     }
 
     .phone-tablet-section .phone-content-tablet .img-content-tv-video {
@@ -3878,9 +3973,7 @@ body {
 
     }
 
-    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .photo img {
-        width: 70px;
-    }
+    
 
     .phone-tablet-section .phone-content-tablet .product-content .parent-products .box {
         width: 50%;
@@ -4601,6 +4694,56 @@ body {
         width: 95%;
     }
 
+     /* Fashion Resp */
+    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .photo img {
+        width: 50px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-fahsion .title-fahsion .icon p {
+        top: 35px;
+        left: 34px;
+        font-size: 10px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-fahsion .title-fahsion .icon span {
+        left: 40px;
+        font-size: 18px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-fahsion .title-fahsion .icon i {
+        font-size: 60px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-fahsion .title-fahsion p {
+        font-size: 25px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-fahsion .title-fahsion span,
+    .phone-tablet-section .phone-content-tablet .img-content-fahsion .title-fahsion p.alter-t {
+        font-size: 20px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-fahsion .title-fahsion {
+        margin-top: 80px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-fahsion .title-fahsion .icon i {
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-fahsion .title .header-title-f p {
+        font-size: 6px;
+        margin-left: 25px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-fahsion {
+        height: 350px;
+    }
+
+
+
+
     /* TV and Video */
     .phone-tablet-section .phone-content-tablet .img-content-tv-video .title .header-title-tv {
         margin-left: 17px;
@@ -4685,9 +4828,7 @@ body {
         font-size: 5px;
     }
 
-    .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .photo img {
-        width: 70px;
-    }
+   
 
     .phone-tablet-section .phone-content-tablet .product-content .parent-products .box {
         width: 50%;
