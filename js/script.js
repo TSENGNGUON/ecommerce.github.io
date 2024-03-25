@@ -20,6 +20,19 @@ var x = setInterval(() => {
 
 }, 1000);
 
+// Menus of Fashion
+// Man Fashions
+const btnManFashion = document.querySelector(".man-fashion");
+
+// Woman Fashion
+const btnWomanFashion = document.querySelector(".woman-fashtion");
+// Watches
+const btnWatches = document.querySelector(".watches");
+// See More
+const btnSeeMoreFas = document.querySelector(".see-more-f");
+// Chevron Left And Right of Fashions
+const chevronLeftFas = document.querySelector(".chevron-left-f-l");
+const chevronRightFas = document.querySelector(".chevron-right-f-r");
 
 // Chevron Left TV 
 const chevronLeftTv = document.querySelector(".chevron-left-tv");
@@ -82,6 +95,97 @@ const chevronLeft1 = document.querySelector(".chevron-left1");
 const chevronRight1 = document.querySelector(".chevron-right1");
 
 var bool = true;
+
+// Menus of Electronics
+const btnGamepad = document.querySelector(".gamepad");
+const btnVitualReality = document.querySelector(".vitual-reality");
+const btnCamera = document.querySelector(".camera");
+const btnSeeMoreElec = document.querySelector(".see-more-elec");
+// Chevron Left and Right of Electronics
+const  chevronLeftElecL = document.querySelector(".chevron-left-elec-l");
+const chevronRightElecR = document.querySelector(".chevron-right-elec-r");
+
+
+
+
+
+
+
+
+
+
+
+// Click Event Menus of Electronics
+btnGamepad.addEventListener("click",function(){
+    btnGamepad.classList.add("active");
+    btnVitualReality.classList.remove("active");
+    btnCamera.classList.remove("active");
+    btnSeeMoreElec.classList.remove("active");
+})
+btnVitualReality.addEventListener("click",function(){
+    btnGamepad.classList.remove("active");
+    btnVitualReality.classList.add("active");
+    btnCamera.classList.remove("active");
+    btnSeeMoreElec.classList.remove("active");
+})
+btnCamera.addEventListener("click",function(){
+    btnGamepad.classList.remove("active");
+    btnVitualReality.classList.remove("active");
+    btnCamera.classList.add("active");
+    btnSeeMoreElec.classList.remove("active");
+})
+btnSeeMoreElec.addEventListener("click",function(){
+    btnGamepad.classList.remove("active");
+    btnVitualReality.classList.remove("active");
+    btnCamera.classList.remove("active");
+    btnSeeMoreElec.classList.add("active");
+})
+
+chevronLeftElecL.addEventListener("click",function(){
+    chevronLeftElecL.classList.add("active");
+    chevronRightElecR.classList.remove("active");
+})
+chevronRightElecR.addEventListener("click",function(){
+    chevronLeftElecL.classList.remove("active");
+    chevronRightElecR.classList.add("active");
+})
+
+
+// Click Event Menus of Fashions 
+btnManFashion.addEventListener("click",function(){
+    btnManFashion.classList.add("active");
+    btnWomanFashion.classList.remove("active");
+    btnWatches.classList.remove("active");
+    btnSeeMoreFas.classList.remove("active");
+})
+btnWomanFashion.addEventListener("click",function(){
+    btnManFashion.classList.remove("active");
+    btnWomanFashion.classList.add("active");
+    btnWatches.classList.remove("active");
+    btnSeeMoreFas.classList.remove("active");
+})
+btnWatches.addEventListener("click",function(){
+    btnManFashion.classList.remove("active");
+    btnWomanFashion.classList.remove("active");
+    btnWatches.classList.add("active");
+    btnSeeMoreFas.classList.remove("active");
+})
+btnSeeMoreFas.addEventListener("click",function(){
+    btnManFashion.classList.remove("active");
+    btnWomanFashion.classList.remove("active");
+    btnWatches.classList.remove("active");
+    btnSeeMoreFas.classList.add("active");
+})
+
+// Chevron Left and Right Fashions
+chevronLeftFas.addEventListener("click",function(){
+    chevronLeftFas.classList.add("active");
+    chevronRightFas.classList.remove("active");
+})
+chevronRightFas.addEventListener("click",function(){
+    chevronLeftFas.classList.remove("active");
+    chevronRightFas.classList.add("active");
+})
 
 
 // Click on Chevron Left or Right TV and Video

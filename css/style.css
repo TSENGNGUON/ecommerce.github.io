@@ -130,6 +130,10 @@ body {
     justify-content: center;
 }
 
+.search-section .content-search .icon p{
+    color: #fff;
+}
+
 .search-section .content-search .icon span {
     background-color: #4a5759b5;
     color: #fff;
@@ -2510,6 +2514,56 @@ body {
     text-decoration: none;
 }
 
+/* Effect Menu Fashions */
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand .list-menu-brand ul .man-fashion.active a {
+    color: #c9184a;
+}
+
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand .list-menu-brand ul .woman-fashtion.active a {
+    color: #c9184a;
+}
+
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand .list-menu-brand ul .watches.active a {
+    color: #c9184a;
+}
+
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand .list-menu-brand ul .see-more-f.active a {
+    color: #c9184a;
+}
+
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand .chevron .chevron-left-f-l.active {
+    background-color: #c9184a;
+}
+
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand .chevron .chevron-right-f-r.active {
+    background-color: #c9184a;
+}
+
+/* Effect Menus of Electronics */
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand-elec .list-menu-brand ul .gamepad.active a {
+    color: skyblue;
+}
+
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand-elec .list-menu-brand ul .vitual-reality.active a {
+    color: skyblue;
+}
+
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand-elec .list-menu-brand ul .camera.active a {
+    color: skyblue;
+}
+
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand-elec .list-menu-brand ul .see-more-elec.active a {
+    color: skyblue;
+}
+
+/* Chevron Left and Right */
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand-elec .chevron .chevron-left-elec-l.active {
+    background-color: skyblue;
+}
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand-elec .chevron .chevron-right-elec-r.active {
+    background-color: skyblue;
+}
+
 
 /* Responsive */
 @media (min-width: 1200px) {
@@ -3884,7 +3938,7 @@ body {
     /* TV and Video */
 
     .phone-tablet-section .phone-content-tablet .img-content-tv-video .title .header-title-tv {
-        margin-left: 17px;
+        margin-left: 10px;
     }
 
     .phone-tablet-section .phone-content-tablet .img-content-tv-video .title .header-title-tv p {
@@ -3973,7 +4027,7 @@ body {
 
     }
 
-    
+
 
     .phone-tablet-section .phone-content-tablet .product-content .parent-products .box {
         width: 50%;
@@ -4694,7 +4748,7 @@ body {
         width: 95%;
     }
 
-     /* Fashion Resp */
+    /* Fashion Resp */
     .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .photo img {
         width: 50px;
     }
@@ -4742,11 +4796,9 @@ body {
     }
 
 
-
-
     /* TV and Video */
     .phone-tablet-section .phone-content-tablet .img-content-tv-video .title .header-title-tv {
-        margin-left: 17px;
+        margin-left: 10px;
     }
 
     .phone-tablet-section .phone-content-tablet .img-content-tv-video .title .header-title-tv p {
@@ -4828,7 +4880,7 @@ body {
         font-size: 5px;
     }
 
-   
+
 
     .phone-tablet-section .phone-content-tablet .product-content .parent-products .box {
         width: 50%;
