@@ -130,7 +130,7 @@ body {
     justify-content: center;
 }
 
-.search-section .content-search .icon p{
+.search-section .content-search .icon p {
     color: #fff;
 }
 
@@ -1237,6 +1237,24 @@ body {
     font-size: 15px;
 }
 
+/* Effect of Menus Home and Kitchen */
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand .list-menu-brand ul .l-appliances.active a {
+    color: rgb(18, 236, 236);
+}
+
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand .list-menu-brand ul .home.active a {
+    color: rgb(18, 236, 236);
+}
+
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand .list-menu-brand ul .s-appliances.active a {
+    color: rgb(18, 236, 236);
+}
+
+.phone-tablet-section .phone-content-tablet .product-content .menu-brand .list-menu-brand ul .see-more-h-k.active a {
+    color: rgb(18, 236, 236);
+}
+
+
 /* Js Menu Phones and Tablets */
 .phone-tablet-section .phone-content-tablet .product-content .menu-brand .list-menu-brand ul li.moblie-accessories.active a {
     color: #fca311;
@@ -1936,7 +1954,7 @@ body {
 
 .phone-tablet-section .phone-content-tablet .img-content-h-k .title .header-title-h-k {
     padding-right: 30px;
-    font-size: 13px;
+    font-size: 11px;
     font-weight: 600;
 }
 
@@ -2560,6 +2578,7 @@ body {
 .phone-tablet-section .phone-content-tablet .product-content .menu-brand-elec .chevron .chevron-left-elec-l.active {
     background-color: skyblue;
 }
+
 .phone-tablet-section .phone-content-tablet .product-content .menu-brand-elec .chevron .chevron-right-elec-r.active {
     background-color: skyblue;
 }
@@ -2820,6 +2839,24 @@ body {
     .content-section .main-content {
         width: 80%;
         transition: all .5s;
+    }
+
+    /* Electronics */
+    .phone-tablet-section .phone-content-tablet .img-content-elec div.main-title-elec .title-elec {
+        margin-bottom: 8px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-elec div.main-title-elec .title-second p {
+        font-size: 20px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-elec {
+        background-size: 245px;
+        background-repeat: no-repeat;
+    }
+
+    .phone-tablet-section .phone-content-tablet .product-content .menu-brand-elec .list-menu-brand ul li a {
+        font-size: 14px;
     }
 
     .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title {
@@ -3228,6 +3265,34 @@ body {
 
     .title-section .content-title-section {
         width: 90%;
+    }
+
+    /* Electronics */
+    .phone-tablet-section .phone-content-tablet .img-content-elec div.main-title-elec .title-second p{
+        font-size: 16px;
+    }
+    .phone-tablet-section .phone-content-tablet .img-content-elec div.main-title-elec .title-elec {
+        padding: 5px 8px;
+        font-size: 13px;
+        
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-elec {
+        margin: 0;
+        padding: 0;
+        background-size: 240px;
+        background-repeat: no-repeat;
+        background-position-y: 50px;
+        background-position-x: 50%;
+    }
+
+    .phone-tablet-section .phone-content-tablet .product-content .menu-brand-elec .list-menu-brand ul li a {
+        font-size: 12px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-elec .title .header-title-elec {
+        font-size: 10px;
+        margin-left: 10px;
     }
 
     /* Fashion Resp */
@@ -3884,6 +3949,22 @@ body {
 
     .title-section .content-title-section {
         width: 93%;
+    }
+
+    /* Electronics */
+    .phone-tablet-section .phone-content-tablet .img-content-elec{
+        height: 350px;
+        background-image: url("../img/89.jpg");
+        background-position: center;
+        background-size: cover;
+        
+    }
+    .phone-tablet-section .phone-content-tablet .product-content .menu-brand-elec .list-menu-brand ul li a{
+        font-size: 8px;
+    }
+    .phone-tablet-section .phone-content-tablet .img-content-elec .title .header-title-elec{
+        font-size: 6px;
+        margin-left: 10px;
     }
 
     /* Fashion Resp */

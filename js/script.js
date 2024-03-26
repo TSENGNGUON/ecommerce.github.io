@@ -20,6 +20,44 @@ var x = setInterval(() => {
 
 }, 1000);
 
+// Menus of Home and Kitchen
+const btnLAppliances = document.querySelector(".l-appliances");
+const btnHome = document.querySelector(".home");
+const btnSAppliances = document.querySelector(".s-appliances");
+const btnSeeMoreHK = document.querySelector(".see-more-h-k");
+const btnChevronRightHK =document.querySelector(".chevron-right-h-k");
+const btnChevronLefttHK = document.querySelector(".chevron-left-h-k");
+
+btnChevronLefttHK.addEventListener("click",function(){
+    btnChevronLefttHK.classList.add("active");
+    btnChevronRightHK.classList.remove("active");
+})
+
+btnLAppliances.addEventListener("click",function(){
+    btnLAppliances.classList.add("active");
+    btnHome.classList.remove("active");
+    btnSAppliances.classList.remove("active");
+    btnSeeMoreHK.classList.remove("active");
+})
+btnHome.addEventListener("click",function(){
+    btnLAppliances.classList.remove("active");
+    btnHome.classList.add("active");
+    btnSAppliances.classList.remove("active");
+    btnSeeMoreHK.classList.remove("active");
+})
+btnSAppliances.addEventListener("click",function(){
+    btnLAppliances.classList.remove("active");
+    btnHome.classList.remove("active");
+    btnSAppliances.classList.add("active");
+    btnSeeMoreHK.classList.remove("active");
+})
+btnSeeMoreHK.addEventListener("click",function(){
+    btnLAppliances.classList.remove("active");
+    btnHome.classList.remove("active");
+    btnSAppliances.classList.remove("active");
+    btnSeeMoreHK.classList.add("active");
+})
+
 // Menus of Fashion
 // Man Fashions
 const btnManFashion = document.querySelector(".man-fashion");
