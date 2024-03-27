@@ -237,6 +237,13 @@ body {
     flex-direction: row;
     justify-content: flex-start;
 }
+.navbar-section .content-navbar .menubar li:hover::after{
+    display: block;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: #ffff3f;
+}
 
 .navbar-section .content-navbar .menubar li a.active {
     background-color: #0077b6;
@@ -312,13 +319,21 @@ body {
     display: flex;
     align-items: center;
     padding: 15.8px 10px;
+    transition: 
+    all .5s;
+    color: #535353;
 }
 
-.content-section .main-content .content-left .list-categories li.active,
-.content-section .main-content .content-left .list-categories li a span.active,
-.content-section .main-content .content-left .list-categories li a i.active {
-    color: #fca311;
+.content-section .main-content .content-left .list-categories li a span:hover{
+    border-bottom: 1px solid black;
+    transition: all .5s;
 }
+
+.content-section .main-content .content-left .list-categories li:hover{
+    background-color:#F2F2F2;
+    color: black;
+}
+
 
 .content-section .main-content .content-left .list-categories li a {
     text-decoration: none;
@@ -2203,7 +2218,6 @@ body {
 .title .text {
     font-size: 15px;
     color: #333;
-    padding-bottom: 10px;
 }
 
 .title .star {
@@ -2605,6 +2619,14 @@ body {
         width: 72%;
         transition: all .5s;
     }
+    /* Home and Kitchen */
+
+    .phone-tablet-section .phone-content-tablet .img-content-h-k .title-h-k .f-title{
+        font-size: 15px;
+    }
+    .phone-tablet-section .phone-content-tablet .img-content-h-k .title-h-k .s-title{
+        font-size: 20px;
+    }
 
     .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title .btn-cart .btn {
         padding: 5px 12px;
@@ -2841,6 +2863,21 @@ body {
         transition: all .5s;
     }
 
+    /* Home and Kitchen */
+    .phone-tablet-section .phone-content-tablet .img-content-h-k .title-h-k .s-title{
+        font-size: 15px;
+    }
+    .phone-tablet-section .phone-content-tablet .img-content-h-k .title-h-k .f-title{
+        font-size: 15px;
+    }
+    .phone-tablet-section .phone-content-tablet .product-content .menu-brand .list-menu-brand ul li a {
+        font-size: 13px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-h-k .title .header-title-h-k {
+        font-size: 9px;
+    }
+
     /* Electronics */
     .phone-tablet-section .phone-content-tablet .img-content-elec div.main-title-elec .title-elec {
         margin-bottom: 8px;
@@ -2855,9 +2892,6 @@ body {
         background-repeat: no-repeat;
     }
 
-    .phone-tablet-section .phone-content-tablet .product-content .menu-brand-elec .list-menu-brand ul li a {
-        font-size: 14px;
-    }
 
     .phone-tablet-section .phone-content-tablet .product-content .parent-products .box .title {
         font-size: 10px;
@@ -2869,10 +2903,6 @@ body {
     }
 
     /* A Tag of List */
-    .phone-tablet-section .phone-content-tablet .product-content .menu-brand .list-menu-brand ul li a {
-        font-size: 14px;
-    }
-
     /* Title Text */
     .phone-tablet-section .phone-content-tablet .img-content .title .header-title {
         font-size: 12px;
@@ -3268,13 +3298,14 @@ body {
     }
 
     /* Electronics */
-    .phone-tablet-section .phone-content-tablet .img-content-elec div.main-title-elec .title-second p{
+    .phone-tablet-section .phone-content-tablet .img-content-elec div.main-title-elec .title-second p {
         font-size: 16px;
     }
+
     .phone-tablet-section .phone-content-tablet .img-content-elec div.main-title-elec .title-elec {
         padding: 5px 8px;
         font-size: 13px;
-        
+
     }
 
     .phone-tablet-section .phone-content-tablet .img-content-elec {
@@ -3952,17 +3983,44 @@ body {
     }
 
     /* Electronics */
-    .phone-tablet-section .phone-content-tablet .img-content-elec{
+    .phone-tablet-section .phone-content-tablet .img-content-elec div.main-title-elec {
+        margin-top: 220px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-elec div.main-title-elec .title-second p {
+        margin-bottom: 2px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-elec div.main-title-elec .title-elec {
+        margin-bottom: 3px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-elec div.main-title-elec .title-shop-now a {
+        font-size: 10px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-elec div.main-title-elec .title-second p {
+        font-size: 13px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-elec div.main-title-elec .title-elec {
+        font-size: 12px;
+        padding: 5px 6px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-elec {
         height: 350px;
         background-image: url("../img/89.jpg");
         background-position: center;
         background-size: cover;
-        
+        background-position-y: 50px;
     }
-    .phone-tablet-section .phone-content-tablet .product-content .menu-brand-elec .list-menu-brand ul li a{
+
+    .phone-tablet-section .phone-content-tablet .product-content .menu-brand-elec .list-menu-brand ul li a {
         font-size: 8px;
     }
-    .phone-tablet-section .phone-content-tablet .img-content-elec .title .header-title-elec{
+
+    .phone-tablet-section .phone-content-tablet .img-content-elec .title .header-title-elec {
         font-size: 6px;
         margin-left: 10px;
     }
@@ -4827,6 +4885,49 @@ body {
 
     .navbar-section .content-navbar {
         width: 95%;
+    }
+
+    /* Electronics */
+    .phone-tablet-section .phone-content-tablet .img-content-elec div.main-title-elec {
+        margin-top: 220px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-elec div.main-title-elec .title-second p {
+        margin-bottom: 2px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-elec div.main-title-elec .title-elec {
+        margin-bottom: 3px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-elec div.main-title-elec .title-shop-now a {
+        font-size: 10px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-elec div.main-title-elec .title-second p {
+        font-size: 13px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-elec div.main-title-elec .title-elec {
+        font-size: 12px;
+        padding: 5px 6px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-elec {
+        height: 350px;
+        background-image: url("../img/89.jpg");
+        background-position: center;
+        background-size: cover;
+        background-position-y: 50px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .product-content .menu-brand-elec .list-menu-brand ul li a {
+        font-size: 8px;
+    }
+
+    .phone-tablet-section .phone-content-tablet .img-content-elec .title .header-title-elec {
+        font-size: 6px;
+        margin-left: 10px;
     }
 
     /* Fashion Resp */
